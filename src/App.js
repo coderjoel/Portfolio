@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
     root: {
       flex: 1,
       backgroundColor : 'black',
-      height: "100%"
+      height: "100%",
     },
     app_bar_button: {
       '@media (min-width:200px)': {
@@ -143,7 +143,7 @@ function Landing() {
   return (
     <div className={classes.root}>
       <Grid container align="center" justify="center" style={{paddingTop: '2%'}}>
-        <Grid container spacing={10}>
+        <Grid container>
           <Grid container item xs={2} style={{marginLeft: '8%'}}>
               <Typography style={{color: 'white', fontFamily: 'Pacifico'}} variant="h1">joel</Typography>
           </Grid>
