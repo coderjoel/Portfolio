@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
-import text from '../../strings.json';
+import text from '../config/strings.json';
 
 function NavBar() {
     return (

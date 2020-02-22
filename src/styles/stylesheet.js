@@ -1,4 +1,4 @@
-import { withStyles, makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     root: {
@@ -6,7 +6,8 @@ const useStyles = makeStyles({
       backgroundColor : 'black',
       height: "100%",
     },
-    contentStyle: {    flex: 1,
+    contentStyle: {    
+      flex: 1,
       display: "flex",
       flexDirection: "column",
       minHeight: '100vh'

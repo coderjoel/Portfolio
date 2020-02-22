@@ -1,31 +1,16 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+import { Grid, Typography } from '@material-ui/core';
 
-const useStyles = makeStyles(theme => ({
-    root: {
-      flex: 1,
-      backgroundColor: 'black',
-      height: '100%',
-      width: '100%'
-    },
-    paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
-    },
-}));
-
-function Landing() {
-    const classes = useStyles();
-    return (
-        <div className={classes.root}>
-            <Grid container>
-                <h1 style={{fontFamily:'PastCode'}}>joel</h1>
-            </Grid>
-        </div>
-    );
+function Resume(){
+  return(
+    <div>
+      <Grid container  spacing={0}  direction="column"  alignItems="center"  justify="center"  style={{ minHeight: '70vh' }}>
+        <Grid item xs={6}>
+          <Typography style={{color: 'white', fontFamily: 'Courier Prime'}} variant="h5">Resume is under construction...<span role="img" aria-label="emoji">👨‍💻</span></Typography>
+        </Grid>
+      </Grid>
+    </div>
+  )
 }
 
-export default Landing;
+export default Resume
