@@ -24,24 +24,24 @@ function HeaderDesktop() {
                         <Typography style={{color: 'white', fontFamily: 'Pacifico', textDecoration: 'none'}} variant="h1" component={Link} to="/">joel</Typography>
                     </Grid>
                     <Grid container item xs={2}>
-                    <Button  className={classes.app_bar_button} component={Link} to="/about">
-                        about
-                    </Button>
+                        <Button  component={Link} to="/about">
+                            <Typography className={classes.app_bar_button} variant="h3">about</Typography>
+                        </Button>
                     </Grid>
                     <Grid container item xs={2}>
-                    <Button  className={classes.app_bar_button} component={Link} to="/resume">
-                        resume
-                    </Button>
+                        <Button component={Link} to="/resume">
+                            <Typography className={classes.app_bar_button} variant="h3">resume</Typography>
+                        </Button>
                     </Grid>
                     <Grid container item xs={2}>
-                    <Button  className={classes.app_bar_button} component={Link} to="/projects">
-                        projects
-                    </Button>
+                        <Button component={Link} to="/projects">
+                            <Typography className={classes.app_bar_button} variant="h3">projects</Typography>
+                        </Button>
                     </Grid>
                     <Grid container item xs={2}>
-                    <Button  className={classes.app_bar_button} component={Link} to="/contact">
-                        contact
-                    </Button>
+                        <Button component={Link} to="/contact">
+                            <Typography className={classes.app_bar_button} variant="h3">contact</Typography>
+                        </Button>
                     </Grid>
                 </Grid>
             </Grid>

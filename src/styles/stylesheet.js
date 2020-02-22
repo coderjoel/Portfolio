@@ -29,13 +29,14 @@ const useStyles = makeStyles({
         fontSize: '2.5rem',
         marginTop: '5%',
       },
-      "&:hover": {
-        backgroundColor: 'white',
-        color: 'black',
-      },
+      // "&:hover": {
+      //   backgroundColor: 'white',
+      //   color: 'black',
+      // },
       color: 'white',
       fontFamily: 'Playfair Display',
       textTransform: 'none',
+      textDecoration: 'none'
     },
     square: {
       '@media (min-width:200px)': {
