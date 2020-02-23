@@ -4,7 +4,6 @@ const useStyles = makeStyles({
     root: {
       flex: 1,
       backgroundColor : 'black',
-      height: "100%",
     },
     contentStyle: {    
       flex: 1,

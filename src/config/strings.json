@@ -1,3 +1,5 @@
 {
-    "navbarText": "all work © Joel Chacko Saji 2019 - 2020 • all rights reserved •"
+    "navbarText": "all work © Joel Chacko Saji 2019 - 2020 • all rights reserved •",
+    "about_me" : "Hi there, I am Joel. \nCurrently pursuing Software Engineering Technology at Centennial College, Toronto. I enjoy being challenged and be engaged with projects that require me to work outside my comfort and knowledge set. I like idealization of new ideas and concepts. I have worked on React-Native, ReactJS which enabled me to develop mobile and web applications. I always look forward to learning something new. Currently mastering JavaScript, Java and various frameworks.\nI even do UI/UX designing. I have experience with Adobe XD, Figma and Zeplin. This portfolio has been developed using React* from scratch and deployed on Github Pages.",
+    "asterisk" : "* yeah I know, you are gonna say why is he using react, why not just html, well it gives me some credit that I know react"
 }
